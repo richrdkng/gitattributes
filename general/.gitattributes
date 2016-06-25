@@ -1,0 +1,49 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+* eol=lf
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.php text
+*.css text
+*.scss text
+*.sass text
+*.js text
+*.htm text
+*.html text
+*.xml text
+*.txt text
+*.ini text
+*.inc text
+.htaccess text
+
+# These files are binary and should be left untouched
+# images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.psd  binary
+*.ai  binary
+
+# fonts
+*.ttf binary
+
+# compressed formats
+*.zip  binary
+*.tar  binary
+*.gz  binary
+*.rar  binary
+*.7z binary
+
+# executables
+*.phar binary
+*.exe  binary
+
+# media formats
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary 
