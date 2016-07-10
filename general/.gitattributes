@@ -28,6 +28,9 @@
 
 # fonts
 *.ttf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
 
 # compressed formats
 *.zip  binary
